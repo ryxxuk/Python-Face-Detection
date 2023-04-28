@@ -1,6 +1,7 @@
 import sys
 import argparse
-from detectface import load_known_faces_and_encodings, recognize_faces_from_video, setup_database
+from detect_face import recognize_faces_from_video
+from utils.database import setup_database, load_known_faces_and_encodings
 
 def main(args):
     setup_database()

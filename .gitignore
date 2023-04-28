@@ -136,3 +136,7 @@ cython_debug/
 *~
 
 *.jpg
+
+dlib/
+
+*.db
